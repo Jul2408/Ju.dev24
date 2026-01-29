@@ -9,7 +9,7 @@ import TechPlanetarySystem3D from '../3d/DeveloperWorkspace3D';
 
 export default function Hero() {
     return (
-        <section id="hero" className="min-h-screen relative flex items-center pt-20 pb-32 overflow-visible">
+        <section id="hero" className="min-h-screen relative flex items-center pt-48 pb-32 overflow-visible">
             {/* Background Wrappers to prevent overflow */}
             <div className="absolute inset-0 overflow-hidden pointer-events-none">
                 {/* Background Gradient Blob */}
