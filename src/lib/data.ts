@@ -1,0 +1,66 @@
+export const projects = [
+    {
+        id: 'fintech-dashboard',
+        title: 'Fintech Dashboard',
+        subtitle: 'Tableau de bord financier temps réel',
+        description: 'Une interface de gestion financière complète avec visualisation de données en temps réel et mode sombre optimisé. Ce projet vise à simplifier la lecture de données complexes pour les traders.',
+        context: 'Le client avait besoin d\'une refonte complète de son outil de tracking.',
+        solution: 'Adoption d\'une architecture modulaire avec des composants réutilisables et des graphiques D3.js performants.',
+        results: 'Augmentation de 30% de l\'engagement utilisateur et réduction du temps de chargement de 50%.',
+        tags: ['Next.js', 'TypeScript', 'D3.js', 'Tailwind'],
+        image: '/images/fintech.png',
+        screenshots: ['/images/fintech.png'], // Recycle for now
+        link: '#',
+        repo: '#',
+        year: '2023',
+        client: 'FinCorp'
+    },
+    {
+        id: 'neuriva',
+        title: 'NEURIVA',
+        subtitle: 'Cerveau Personnel Numérique',
+        description: 'Application web intelligente (PWA) agissant comme un cerveau personnel numérique. Elle apprend vos habitudes, anticipe les imprévus et propose des actions concrètes au bon moment. Conçue pour fonctionner parfaitement hors connexion.',
+        context: 'Développement d\'un assistant personnel axé sur l\'action et l\'adaptation, accessible partout.',
+        solution: 'Architecture PWA Offline-First avec modèles d\'IA locaux pour une réactivité instantanée sans dépendance réseau.',
+        results: 'Assistant proactif capable de gérer la charge mentale quotidienne.',
+        tags: ['PWA', 'IA', 'Offline First', 'React', 'Python'],
+        image: '/images/neuriva.jpeg',
+        screenshots: ['/images/neuriva.jpeg'],
+        link: '#',
+        repo: '#',
+        year: '2024',
+        client: 'Projet Personnel'
+    },
+    {
+        id: 'neo-mind-ai',
+        title: 'Neo-Mind AI',
+        subtitle: 'SaaS IA Générative',
+        description: 'Interface SaaS pour une IA générative avec support de blocs de code et thèmes dynamiques. Une expérience fluide proche d\'un IDE.',
+        context: 'Startup en IA cherchant à se différencier par l\'UX.',
+        solution: 'Interface chat temps réel avec WebSockets et coloration syntaxique avancée.',
+        results: '10k utilisateurs en 1 mois.',
+        tags: ['Next.js', 'OpenAI API', 'Prisma', 'PostgreSQL'],
+        image: '/images/ai.png',
+        screenshots: ['/images/ai.png'],
+        link: '#',
+        repo: '#',
+        year: '2024',
+        client: 'NeoMind'
+    },
+    {
+        id: 'nearme',
+        title: 'Nearme',
+        subtitle: 'Géolocalisation de Services & Talents',
+        description: 'Plateforme web internationale de géolocalisation connectant instantanément les besoins aux compétences locales. Permet de visualiser et contacter les prestataires de services à proximité immédiate.',
+        context: 'Création d\'un écosystème de services de proximité sans barrières.',
+        solution: 'Moteur de recherche géospatial temps réel avec filtrage par compétences et rayon d\'action.',
+        results: 'Facilitation des échanges de services locaux à l\'échelle mondiale.',
+        tags: ['React', 'Node.js', 'Google Maps API', 'MongoDB', 'GeoJSON'],
+        image: '/images/nearme.png',
+        screenshots: ['/images/nearme.png'],
+        link: '#',
+        repo: '#',
+        year: '2024',
+        client: 'Projet Personnel'
+    }
+];
