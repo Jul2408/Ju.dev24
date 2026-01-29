@@ -520,7 +520,7 @@ export default function TechPlanetarySystem3D() {
                 stream.mesh.position.y = stream.height + Math.sin(time * 2 + index) * 0.5;
 
                 // Fade in/out
-                stream.mesh.material.opacity = 0.3 + Math.sin(time * 3 + index) * 0.3;
+                (stream.mesh.material as THREE.MeshBasicMaterial).opacity = 0.3 + Math.sin(time * 3 + index) * 0.3;
             });
 
             // Subtle camera movement
