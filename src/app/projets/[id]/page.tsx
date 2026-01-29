@@ -54,12 +54,20 @@ export default async function ProjectPage({
                     </div>
 
                     <div className="flex flex-wrap gap-4 mt-8">
-                        <Button size="lg" icon={<ExternalLink size={18} />} onClick={() => { }}>
-                            Voir le site live
-                        </Button>
-                        <Button variant="outline" size="lg" icon={<Github size={18} />} onClick={() => { }}>
-                            Code source
-                        </Button>
+                        {project.link && project.link !== '#' && (
+                            <a href={project.link} target="_blank" rel="noopener noreferrer">
+                                <Button size="lg" icon={<ExternalLink size={18} />}>
+                                    Voir le site live
+                                </Button>
+                            </a>
+                        )}
+                        {project.repo && project.repo !== '#' && (
+                            <a href={project.repo} target="_blank" rel="noopener noreferrer">
+                                <Button variant="outline" size="lg" icon={<Github size={18} />}>
+                                    Code source
+                                </Button>
+                            </a>
+                        )}
                     </div>
                 </Container>
             </section>
